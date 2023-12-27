@@ -15,7 +15,7 @@ None needed - simply install the mod!  The camera bounds should be freed up auto
 1. Place the `FreeRangeCameraLite` folder in the archive in your BepInEx `Plugins` folder.
 
 ## Support
-It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/ZaH2zjtk), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
+It's usually easiest to contact me at the [**Cities: Skylines modding Discord**](https://discord.gg/7rTsfUdfTf), or I'm also contactable as u/algernon_A on the [Cities: Skylines modding Subreddit](https://www.reddit.com/r/CitiesSkylinesModding) (r/CitiesSkylinesModding).  You could also raise an issue on the GitHub.
 
 ## Meta
 ### Source code
