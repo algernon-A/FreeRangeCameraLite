@@ -48,8 +48,7 @@ namespace FreeRangeCamera
                     Mod.Instance.Log.Debug("found call to TerrainUtils.GetBounds");
 
                     // Drop instruction argument and duplicate previous value on stack (m_Pivot).
-                    yield return new CodeInstruction(OpCodes.Pop);
-                    yield return new CodeInstruction(OpCodes.Dup);
+                    yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CameraControllerPatches), nameof(GetCustomBounds)));
 
                     continue;
                 }
@@ -71,5 +70,12 @@ namespace FreeRangeCamera
             __result = new Bounds1(1f, 80000f);
             return false;
         }
+
+        /// <summary>
+        /// Returns custom map bounds to repace the game default.
+        /// </summary>
+        /// <param name="data">Terrain height data reference.</param>
+        /// <returns>Custom camera bounds.</returns>
+        private static Bounds3 GetCustomBounds(ref TerrainHeightData data) => new Bounds3(-data.offset, ((data.resolution - 1) / data.scale) - data.offset) * 8f;
     }
 }

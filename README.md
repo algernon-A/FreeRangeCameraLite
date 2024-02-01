@@ -1,5 +1,5 @@
 # Cities Skylines 2 : Free Range Camera Lite
-- **Freely move the camera outside the playable area** - as far as you want (no limits).
+- **Freely move the camera outside the playable area** - limited to twice the full background map maximum distance (8x the playable area width) so you don't get totally lost.
 - **Increased maximum zoom-out range** - easily see the whole map at once.
 - Works both **in-game** and **in the editor**.
 

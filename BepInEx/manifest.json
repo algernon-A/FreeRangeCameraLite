@@ -1,6 +1,6 @@
 {
   "name": "FreeRangeCameraLite",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/algernon-A/FreeRangeCameraLite",
   "description": "Permits camera movement outside the playable area and significantly increases the maximum zoom-out.",
   "dependencies": [

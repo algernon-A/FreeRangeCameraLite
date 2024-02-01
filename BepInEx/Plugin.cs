@@ -16,7 +16,7 @@ namespace FreeRangeCamera
     /// <summary>
     /// BepInEx plugin to substitute for IMod support.
     /// </summary>
-    [BepInPlugin(GUID, "Free Range Camera Lite", "1.0.0")]
+    [BepInPlugin(GUID, "Free Range Camera Lite", "1.0.1")]
     [HarmonyPatch]
     public class Plugin : BaseUnityPlugin
     {
